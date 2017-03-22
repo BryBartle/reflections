@@ -1,0 +1,63 @@
+Lesson 1 Reflections:
+
+- git log
+- git diff #commitIDold #commitIDnew
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+- For Windows command prompt use FC to compare files (compares with ## breaks)
+- For Linux/MacOS command prompt use diff -u (shows - on old line and + on new line)
+- For each of these just type the files you want to compare after the command
+- Make sure you're in the same directory as the files you want to compare
+- This comparison tool will highlight the lines of code that are actually
+different between the two files saving you a lot of time looking through thousands
+of lines of code for differences
+- From there you can just look at the changes you made and see if you can find a bug
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It makes it much easier to isolate mistakes and typos as well as track the
+	things I did that worked well. Can easily revert to older folders if need 
+	to take a step back and do things differently or can easily refer to things
+	that I did to see how, why, and use this information accordingly.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Pros:
+	- Can make 1 commit per logical change which makes log and version review
+	very easy and understandable
+	Cons:
+	- May forget to manually commit on occasion
+	- Have to make a judgement call about when to commit (not really a problem
+	after developing experience though)
+	
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because in coding files you often need multiple files working together to 
+	make a feature work where as in Google Docs you do not. For this reason, it
+	is useful to save a version of all the files in your repository for each
+	commit so you can use them all together at the same version.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log and git diff are very useful commands to look throught the commit 
+	history of a repository of files. Can use git log to see the entire history 
+	log of commits for all files in the repository and then can use git diff to 
+	compare the different versions of any 2 files (called by their commitID's) 
+	in a colour-highlighted line added/removed format.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because using git checkout you can always go back to a previous version 
+	where all the code still worked. Thus, there is no cost to trying something 
+	new that could break your code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    A coding project in Python! Specifically, a machine learning project (longterm)
