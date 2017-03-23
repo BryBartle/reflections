@@ -1,4 +1,4 @@
-Lesson 2 Reflections:
+Lesson 2 Reflections (Bry Bartle):
 
 What happens when you initialize a repository? Why do you need to do it?
 	
