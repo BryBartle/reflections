@@ -35,6 +35,16 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Branches can be very helpful when making different versions of the same 
+	program that have different features (example an easy, average, and hard 
+	version of a game). This is useful because you can do this from mostly the 
+	same code and then just branch off and change one feature to change the 
+	difficulty and still keep all easy, average and hard versions in different 
+	branches (could also be any application, italian version of code, different 
+	languages, same product tailored for different clients, etc.). This would 
+	be super helpful in keeping things organized as you can keep different 
+	variations of the same thing in different branches off the master branch.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
