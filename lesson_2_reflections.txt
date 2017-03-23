@@ -23,6 +23,15 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	I can make changes in the working directory, then add whatever files I want 
+	to the staging area. From here I can use git diff to make sure I'm including 
+	only the changed files I want to commit in the staging area by comparying 
+	my working directory files to my staging area files. I can then confirm that 
+	I am only making one logical change since my last commit by using git diff 
+	--staged to compare the current files in my staging area to the most recent 
+	commit in my repository. This way I can see the changes that have been made 
+	since my last commit and confirm that it is only one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
