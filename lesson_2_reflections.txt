@@ -68,3 +68,21 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Pros:
+	- Git does a lot of the work for you in merging the two files
+	- You can work on two separate branches (or have multiple people working 
+	on the two separate branches) simultaneously and then merge after
+	- Saves a lot of time and makes coding as a team more efficient
+	- Any aspects of the merge where both branches changed the same sections 
+	of the code will be brought to the coders' attention so the coders can 
+	personally resolve any conflicts instead of having Git attempt to which 
+	could lead to many errors in the code for that conflict section and therefore 
+	also potential errors in the functionality
+	
+	Cons: 
+	- Still have to meet with multiple coders in person to decide how to deal 
+	with merge conflicts while still maintaining all the desired functions of 
+	the program. However, as stated above, given the current capabilities of 
+	Git this is likely a better option than letting Git solve the difficult 
+	conflicts itself as it will likely not do so properly
