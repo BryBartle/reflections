@@ -27,7 +27,12 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    You can compare and see what you have added locally since you last pulled 
+	or fetched from GitHub. Also, if you have the last known remote state 
+	stored locally you can merge it with your local master changes in case 
+	the two branches are out of sync. This would allow you to work offline, 
+	add features to your local master branch, and then merge both origin/master 
+	and master when you are finished.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
