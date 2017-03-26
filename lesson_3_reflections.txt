@@ -45,4 +45,11 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Whenever you are creating an experimental feature that you want to test, 
+	receive feedback on, and then implement while still maintaining a good 
+	master copy. This is beneficial because you keep a safe master branch and 
+	can still experiment and get feedback through a pull request whereas 
+	changes to master must be more fundamental, sounds changes because they 
+	will then likely get merged into all other branches. So other branches are 
+	great for parallel work and adding new or experimental features and master 
+	is great for keeping a sound, good branch for your code that you know works.
